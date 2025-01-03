@@ -56,6 +56,12 @@ h1 {
   align-items: center;
 }
 
+.questionnary {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .btn {
   padding: 15px 25px;
 }
