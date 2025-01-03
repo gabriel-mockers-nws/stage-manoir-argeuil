@@ -51,6 +51,18 @@ h1 {
   color: var(--color-primary);
 }
 
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  font-family: var(--font-family-base);
+  letter-spacing: 1px;
+}
+
 .banner {
   text-align: center;
   align-items: center;

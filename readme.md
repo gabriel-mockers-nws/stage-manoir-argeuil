@@ -22,4 +22,5 @@ Il est demandé de faire un questionnaire de satisfaction avec plusieurs types d
 - Déplacement du titre h1 dans l'article
 - Style du boutton submit d'envoie du formulaire
 - Noms des labels changer (plus cohérents)
-- style du qestionnaire, (changement en display flex)
+- Style du qestionnaire, (changement en display flex)
+- Style du textearea
