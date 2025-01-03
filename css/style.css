@@ -1,0 +1,11 @@
+:root {
+  /*fonts*/
+  --font-family-heading: "Helvetica", sans-serif;
+  --font-family-base: "Helvetica", sans-serif;
+}
+
+html,
+body,
+main {
+  font-family: var(--font-family-base);
+}
