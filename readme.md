@@ -26,3 +26,4 @@ Il est demandé de faire un questionnaire de satisfaction avec plusieurs types d
 - Style du textearea.
 - Clareté de lecture de la zone d'avis clients.
 - Ajout du nom 'Manoir d'Argeuil' dans le titre h1.
+- Correction d'une section en double.
