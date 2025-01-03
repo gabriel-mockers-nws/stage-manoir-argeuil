@@ -4,8 +4,22 @@
   --font-family-base: "Helvetica", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html,
 body,
 main {
   font-family: var(--font-family-base);
+}
+
+header {
+  background-image: url(../img/manoir-argeuil.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
 }
