@@ -14,3 +14,11 @@ Il est demandé de faire un questionnaire de satisfaction avec plusieurs types d
 - Mise en place de la police d'écriture générale pour tout le site en css
 - Mise de l'image du manoire en background pour le header
 - IMG responsive
+- Centrage du texte du questionnaire
+- Retrait de la marge du titre principal
+- Replacement du bouton envoie dans le formulaire
+- Changement de la zonne de texte (retrait de la note inutile à côté)
+- Centrage du titre
+- Déplacement du titre h1 dans l'article
+- Style du boutton submit d'envoie du formulaire
+- Noms des labels changer (plus cohérents)

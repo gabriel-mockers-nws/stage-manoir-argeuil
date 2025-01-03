@@ -7,7 +7,12 @@
   --font-size-mobile: 14px;
   --font-size-tab: 16px;
   --font-size-computeur: 18px;
-  --font-size-heading: 144px;
+
+  /* colors */
+  --color-primary: #c13760;
+  --color-primary-variation: #ad3156;
+  --color-btn-oneclick: #9a2c4c;
+  --color-secondary: #fff;
 }
 
 *,
@@ -35,6 +40,43 @@ header {
 
 body {
   font-size: var(--font-size-mobile);
+}
+
+article {
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--font-family-heading);
+  color: var(--color-primary);
+}
+
+.banner {
+  text-align: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px 25px;
+}
+
+.btn-sent {
+  border: 0;
+  border-radius: 5px;
+  padding: 0 25px;
+  margin: 0 25px;
+  text-align: center;
+  line-height: 2.5;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.btn-sent:hover {
+  background-color: var(--color-primary-variation);
+}
+
+.btn-sent:active {
+  background-color: var(--color-btn-oneclick);
 }
 
 @media (min-width: 600px) {
