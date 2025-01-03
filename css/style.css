@@ -2,6 +2,12 @@
   /*fonts*/
   --font-family-heading: "Helvetica", sans-serif;
   --font-family-base: "Helvetica", sans-serif;
+
+  /*font-size*/
+  --font-size-mobile: 14px;
+  --font-size-tab: 16px;
+  --font-size-computeur: 18px;
+  --font-size-heading: 144px;
 }
 
 *,
@@ -14,6 +20,8 @@ html,
 body,
 main {
   font-family: var(--font-family-base);
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -21,5 +29,30 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 300px;
+  width: 100%;
+}
+
+body {
+  font-size: var(--font-size-mobile);
+}
+
+@media (min-width: 600px) {
+  header {
+    height: 400px;
+  }
+
+  body {
+    font-size: var(--font-size-tab);
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    height: 500px;
+  }
+
+  body {
+    font-size: var(--font-size-computeur);
+  }
 }

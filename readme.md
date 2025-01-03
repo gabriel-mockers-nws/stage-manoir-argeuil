@@ -13,3 +13,4 @@ Il est demandé de faire un questionnaire de satisfaction avec plusieurs types d
 - Création de la zonne d'entrée de texte pour l'avis client
 - Mise en place de la police d'écriture générale pour tout le site en css
 - Mise de l'image du manoire en background pour le header
+- IMG responsive
