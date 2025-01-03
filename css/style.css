@@ -57,10 +57,23 @@ textarea {
   line-height: 1;
   width: 500px;
   border-radius: 5px;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px #999;
+  border: 1px solid var(--color-primary-variation);
+  box-shadow: 1px 1px 1px var(--color-btn-oneclick);
   font-family: var(--font-family-base);
   letter-spacing: 1px;
+}
+
+input {
+  appearance: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color-btn-oneclick);
+  transition: 0.1s;
+}
+
+input:checked {
+  border: 6px solid var(--color-primary);
 }
 
 .banner {

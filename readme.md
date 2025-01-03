@@ -27,3 +27,5 @@ Il est demandé de faire un questionnaire de satisfaction avec plusieurs types d
 - Clareté de lecture de la zone d'avis clients.
 - Ajout du nom 'Manoir d'Argeuil' dans le titre h1.
 - Correction d'une section en double.
+- Changement de l'inuput type button en button simple.
+- Style des coche radio et des shadow en fonction du thèùme du site.
